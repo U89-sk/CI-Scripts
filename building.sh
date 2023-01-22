@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Define Variables
-DEVICE="z3s"
-OEM="samsung"
+DEVICE="RMX1851"
+OEM="realme"
 TARGET=(
 	pbrp
 )
