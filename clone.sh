@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Define Variables
-DEVICE="z3s"
-DT="https://github.com/Nico170420/android_device_samsung_z3s.git"
-OEM="samsung"
-PBRP_BRANCH="12.1"
+DEVICE="RMX1851"
+DT="https://github.com/U89-sk/android_device_realme_RMX1851-pbrp.git"
+OEM="RMX1851"
+PBRP_BRANCH="android-13.0"
 
 # Clone and sync Recovery Source
 repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-${PBRP_BRANCH}
