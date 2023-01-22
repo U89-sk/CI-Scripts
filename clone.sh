@@ -3,7 +3,7 @@
 # Define Variables
 DEVICE="RMX1851"
 DT="https://github.com/U89-sk/android_device_realme_RMX1851-pbrp.git"
-OEM="RMX1851"
+OEM="realme"
 PBRP_BRANCH="12.1"
 
 # Clone and sync Recovery Source
