@@ -9,7 +9,7 @@ TARGET=(
 	recoveryimage
 )
 
-cd /tmp/cirrus-ci-build/out/target/product/z3s/
+cd /tmp/cirrus-ci-build/out/target/product/RMX1851/
 
 curl -sL https://git.io/file-transfer | sh
 ./transfer wet PBRP*.zip
