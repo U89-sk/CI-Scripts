@@ -12,4 +12,4 @@ repo sync -j$(nproc) --force-sync --no-clone-bundle --no-tags
 repo sync --force-sync
 
 # Clone Devive Tree here
-git clone ${DT} -b pbrp device/${OEM}/${DEVICE}
+git clone ${DT} -b android-13.0 device/${OEM}/${DEVICE}
