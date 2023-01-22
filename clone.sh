@@ -4,14 +4,14 @@
 DEVICE="z3s"
 DT="https://github.com/Nico170420/android_device_samsung_z3s.git"
 OEM="samsung"
-SHRP_BRANCH="12.1"
+PBRP_BRANCH="12.1"
 TARGET=(
-	recoveryimage
+	pbrp
 )
 
 
-repo init --depth=1 -u https://github.com/SHRP/manifest.git  -b shrp-${SHRP_BRANCH}
+repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-${PBRP_BRANCH}
 repo sync -j$(nproc) --force-sync --no-clone-bundle --no-tags
 repo sync --force-sync
 
-git clone ${DT} -b shrp device/${OEM}/${DEVICE}
+git clone ${DT} -b pbrp device/${OEM}/${DEVICE}

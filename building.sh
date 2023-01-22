@@ -6,7 +6,7 @@ DT="https://github.com/Nico170420/android_device_samsung_z3s.git"
 OEM="samsung"
 TW_BRANCH="12.1"
 TARGET=(
-	recoveryimage
+	pbrp
 )
 
 . build/envsetup.sh
