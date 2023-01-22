@@ -4,7 +4,7 @@
 DEVICE="RMX1851"
 OEM="realme"
 TARGET=(
-	android-13.0
+	pbrp
 )
 
 . build/envsetup.sh
