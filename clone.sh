@@ -10,7 +10,7 @@ TARGET=(
 )
 
 
-repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-$(TWRP_BRANCH)
+repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-${TWRP_BRANCH}
 repo sync -j$(nproc) --force-sync --no-clone-bundle --no-tags
 repo sync --force-sync
 
