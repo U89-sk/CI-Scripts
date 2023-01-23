@@ -13,4 +13,5 @@ cd /tmp/cirrus-ci-build/out/target/product/RMX1851/
 
 curl -sL https://git.io/file-transfer | sh
 ./transfer wet SHRP_v3.1*.zip
+./transfer wet SHRP_AddonRescue_v3.1*.zip
 
