@@ -12,7 +12,7 @@ fi
 
 file_content_type="application/octet-stream"
 files_to_upload=(
-/tmp/cirrus-ci-build/out/target/product/z3s/SHRP*.zip
+/tmp/cirrus-ci-build/out/target/product/RMX1851/recovery.img
 )
 
 for fpath in $files_to_upload
