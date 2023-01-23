@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Define Variables
-DEVICE="z3s"
-DT="https://github.com/Nico170420/android_device_samsung_z3s.git"
-OEM="samsung"
-TW_BRANCH="12.1"
+DEVICE="RMX1851"
+DT="https://github.com/U89-sk/android_device_realme_RMX1851-twrp.git"
+OEM="realme"
+TW_BRANCH="11"
 TARGET=(
 	recoveryimage
 )
