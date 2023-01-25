@@ -8,5 +8,5 @@ TARGET=(
 
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch twrp_${DEVICE}-eng
+lunch omni_${DEVICE}-eng
 mka -j$(nproc) ${TARGET}
