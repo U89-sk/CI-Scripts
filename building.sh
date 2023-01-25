@@ -2,9 +2,6 @@
 
 # Define Variables
 DEVICE="RMX1851"
-DT="https://github.com/U89-sk/android_device_realme_RMX1851-twrp.git"
-OEM="realme"
-TW_BRANCH="11"
 TARGET=(
 	recoveryimage
 )
